@@ -10,7 +10,7 @@ class conan_prometheusRecipe(ConanFile):
     # Optional metadata
     license = "MIT"
     author = "Tim Hilt timhilt@live.de"
-    url = "https://github.com/tim-hilt/cpp-prometheus"
+    url = "https://github.com/tim-hilt/conan-prometheus"
     description = "POC on how to use conan for automating the installation of cpp-dependencies"
     topics = ("automation", "prometheus", "containerization")
 
