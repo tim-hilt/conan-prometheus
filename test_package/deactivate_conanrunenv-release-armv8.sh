@@ -1,2 +1,0 @@
-echo Restoring environment
-export PATH='/opt/homebrew/bin:/opt/homebrew/sbin:/Users/timhilt/.config/emacs/bin:/Users/timhilt/.cargo/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin:/Library/TeX/texbin:/Users/timhilt/Library/pnpm:/opt/homebrew/bin:/opt/homebrew/sbin'

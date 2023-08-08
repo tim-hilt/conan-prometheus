@@ -1,1 +1,6 @@
 build/
+metadata/
+CMakeUserPresets.json
+conanbuild*
+conanrun*
+deactivate_conan*

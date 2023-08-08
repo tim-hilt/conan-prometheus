@@ -1,1 +1,0 @@
-. "/Users/timhilt/dev/conan-prometheus/test_package/conanbuildenv-release-armv8.sh"

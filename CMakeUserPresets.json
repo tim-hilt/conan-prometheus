@@ -1,9 +1,0 @@
-{
-    "version": 4,
-    "vendor": {
-        "conan": {}
-    },
-    "include": [
-        "/Users/timhilt/dev/conan-prometheus/build/Release/generators/CMakePresets.json"
-    ]
-}
