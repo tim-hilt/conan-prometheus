@@ -51,7 +51,7 @@ int main()
     // ask the exposer to scrape the registry on incoming HTTP requests
     exposer.RegisterCollectable(registry);
 
-    for (;;)
+    while (true)
     {
         std::this_thread::sleep_for(std::chrono::seconds(1));
         const auto random_value = std::rand();
