@@ -1,4 +1,8 @@
 {
   "cmake.configureOnOpen": true,
-  "cmake.useCMakePresets": "always"
+  "cmake.useCMakePresets": "always",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }

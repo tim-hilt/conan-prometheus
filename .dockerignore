@@ -1,0 +1,6 @@
+.git/
+.vscode/
+build/
+README.md
+Dockerfile
+CMakeUserPresets.json

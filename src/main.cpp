@@ -7,7 +7,7 @@
 int main()
 {
     // create an http server running on port 8080
-    prometheus::Exposer exposer{"127.0.0.1:8080"};
+    prometheus::Exposer exposer{"0.0.0.0:8080"};
 
     // create a metrics registry
     // @note it's the users responsibility to keep the object alive
@@ -46,6 +46,9 @@ int main()
 
     while (true)
     {
+        printf("Your message\n");
+        fflush(stdout); // Flush the output buffer
+
         std::this_thread::sleep_for(std::chrono::seconds(1));
         const auto random_value = std::rand();
 
