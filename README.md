@@ -19,6 +19,7 @@ If Conan is already set up correctly you can run the project by executing the fo
 conan install . --build=missing
 cmake --preset conan-release
 cmake --build --preset conan-release
+./build/Release/generators/conan_prometheus
 ```
 
 alternatively you can run with docker:
